@@ -4,7 +4,7 @@
 
 
 # What is DNSCrypt proxy
-[DNSCrypt proxy](https://dnscrypt.info/) is a DNS resolver using DNScrypt protocol, which works with encrypted DNS requests to DNSCrypt enabled servers.
+[DNSCrypt proxy](https://dnscrypt.info/) is a DNS resolver using DNScrypt protocol, which works with encrypted DNS requests to DNSCrypt enabled servers.  
 ![](https://dnscrypt.info/_nuxt/img/dnscrypt.cd47d19.png)
 
 
