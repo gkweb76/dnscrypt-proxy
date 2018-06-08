@@ -1,0 +1,21 @@
+# Title : Compose file to setup a DNSCrypt proxy container 
+# Command : sudo docker-compose -f compose-dnscrypt.yml -p <project_name> up
+version: "3.5"
+
+dnscrypt:
+    image: gkweb76/dnscrypt-proxy:latest
+    container_name: dnscrypt-proxy
+    read_only: yes
+    environment:
+      - LOCAL_IP=0.0.0.0 # host IP
+      - LOCAL_PORT=53 # container port
+      - SERVER=dnscrypt.eu-dk
+    networks:
+      - dnscrypt
+    volumes:
+      - /etc/localtime:/etc/localtime:ro # keep container clock in sync with host
+    restart: "unless-stopped"
+    
+# Networks declaration
+networks:
+  dnscrypt:
