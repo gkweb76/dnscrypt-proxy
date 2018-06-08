@@ -1,7 +1,7 @@
 # Supported tags
 -   [`1.9.5`, `1.9.5-r2`, `latest` (*[1.9.5-r2/Dockerfile](https://github.com/gkweb76/dnscrypt-proxy/blob/master/1.9.5-r2/Dockerfile)*)]
 
-
+ 
 
 # What is DNSCrypt proxy
 [DNSCrypt proxy](https://dnscrypt.info/) is a DNS resolver using DNScrypt protocol, which works with encrypted DNS requests to DNSCrypt enabled servers.  
